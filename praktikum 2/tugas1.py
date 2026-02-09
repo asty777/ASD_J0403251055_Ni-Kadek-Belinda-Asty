@@ -67,6 +67,7 @@ def tampilkan_semua(stok_dict):
 # Fungsi: Cari barang
 # -------------------------------
 def cari_barang(stok_dict):
+    # input kode barang
     kode_cari = input("Masukkan kode barang yang ingin dicari: ").strip()
 
     if kode_cari in stok_dict:
@@ -87,13 +88,16 @@ def cari_barang(stok_dict):
 def tambah_barang(stok_dict):
     kode = input("Masukkan kode barang baru: ").strip()
 
+    # cek apakah kode sudah ada
     if kode in stok_dict:
         print("Kode sudah digunakan.")
         return
 
+    # input nama barang
     nama = input("Masukkan nama barang: ").strip()
 
     try:
+        #cek stok tidak kurang dari 0
         stok_awal = int(input("Masukkan stok awal: "))
         if stok_awal < 0:
             print("Stok tidak boleh negatif.")
