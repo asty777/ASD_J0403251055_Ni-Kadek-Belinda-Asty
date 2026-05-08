@@ -1,0 +1,5 @@
+0106001,Laskar Pelangi,85000
+0106002,Bumi,90000
+0106003,I Want to Die but I Want to Eat Tteokbokki,120000
+0106004,Laut Bercerita,95000
+0106070,Seporsi Mie Ayam Sebelum Mati,78000
